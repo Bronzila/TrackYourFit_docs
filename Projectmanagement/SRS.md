@@ -48,7 +48,7 @@
 ## Introduction
 ### Purpose
 
-This SRS describes all specifications for "TrackYourFit". It's a Web-based application and a cross-platform application. "TrackYourFit" allows users to share their training plans with friends and other people in their near environment. In this document the usage of the "TrackYourFit"-Web-App and the Xamarin-App will be explained. Furthermore reliability, reaction speed and other important characteristics of this project will be specified. This includes design and architectural decisions regarding optimization of these criteria as well.
+This SRS describes all specifications for "TrackYourFit". It's a Web-based application and a cross-platform application. "TrackYourFit" allows users to share their training plans with friends and other people in their near environment. In this document the usage of the "TrackYourFit"-Web-App. Furthermore reliability, reaction speed and other important characteristics of this project will be specified. This includes design and architectural decisions regarding optimization of these criteria as well.
 
 ### Scope
 
@@ -173,14 +173,11 @@ The whole application will be built with an intuitive design, but we also develo
 ### Interfaces
 #### User Interfaces
 
-There are two different ways how users can interact. The first way is on the web application. Users can register and log in. Edit their profiles and manage their training plans including monitor the training process.
-The second is the cross-platform app provided on iOS and Android. Users can login into their accounts, they can add new training plans and users, evaluate other training plans and execute training plans.
+Users can register and log in. Edit their profiles and manage their training plans including monitor the training process.
 
 #### Hardware Interfaces
 
 The web application is provided for Linux and Windows Server. It can be managed on Docker. It supports all popular browsers.
-The iOS app supports all iOS versions since version 11.
-The Android app supports all versions since version 5.0 Lollipop.
 
 #### Software Interfaces
 
