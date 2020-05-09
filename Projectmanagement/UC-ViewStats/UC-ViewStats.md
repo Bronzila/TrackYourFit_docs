@@ -9,38 +9,21 @@ Users are able to view there Stats on there activated or concluded trainingplans
 ### Basic Flow
 ![UC-View-Stats-Window](./Bilder/ViewStats.jpg)
 ![UC-View-Stats-of-Trainingplan-X-Window](./Bilder/ViewTPStats.jpg)
-
 ``` Gherkin
 Feature: see Stats
-   I want to delete an Account
+   I want to see stats of of one TP-Session
 
    Scenario: delete an Account
-      Given I am logged in as an admin
-      And I have navigated to section "User Management"
-      When I searched vor the Account by using the Account-Name as an identifier
-      And I click on the displayed Account in the "Userlist"
-      Then The clicked Account is highlited
-      When I click on the delete Button  
-      Then The Account is deleted from the database
-
-   Scenario: ban an Account
-      Given I am logged in as an admin
-      And I have navigated to section "User Management"
-      When I searched vor the Account by using the Account-Name as an identifier
-      And I click on the displayed Account in the "Userlist"
-      Then The clicked Account is highlited
-      When I enter 5d in the "enterTime" Textbox
-      And I click on the "ban" Button
-      Then The Account is banned from using the service for 5 days
-
-   Scenario: delete an Account
-      Given I am logged in as an admin
-      And I have navigated to section "User Management"
-      When I searched vor the Account by using the Account-Name as an identifier
-      And I click on the displayed Account in the "Userlist"
-      Then The clicked Account is highlited
-      When I click on the view report History Button  
-      Then a dialog opens which displays the History of reports and bans of the account
+      Given I am logged in
+      And I have navigated to section "View Stats"
+      When I searched for the trainingplan of the session
+      And I click on the "Enter"-Button in the list
+      Then the View Stats of the TP dialog opens
+      
+   Scenario: reenter Session
+     Given I am in the View Stats of the TP dialog
+     When I click on the "Enter"-Button of the Session
+     Then the Session is reopened
 ```
 
 
@@ -55,8 +38,7 @@ Feature: see Stats
 (tbd)
 
 ## Special Requirements
-### Owning an Admin Account
-
+### None
 
 ## Preconditions
 (tbd)
