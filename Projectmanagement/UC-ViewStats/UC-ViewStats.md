@@ -3,15 +3,15 @@
 ## User Management
 ### Brief Description
 
-Users are able to view there Stats on the 
+Users are able to view there Stats on there activated or concluded trainingplans
 
 ## Flow of Events
 ### Basic Flow
-![UC-User_Management-Diagram](./Bilder/ViewStats.jpg)
-![UC-User_Management-ReportHistory-Diagram](./Bilder/ViewTPStats.jpg)
+![UC-View-Stats-Window](./Bilder/ViewStats.jpg)
+![UC-View-Stats-of-Trainingplan-X-Window](./Bilder/ViewTPStats.jpg)
+
 ``` Gherkin
-Feature: delete Account
-   as a admin
+Feature: see Stats
    I want to delete an Account
 
    Scenario: delete an Account
