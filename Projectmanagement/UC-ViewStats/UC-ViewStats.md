@@ -7,8 +7,8 @@ Users are able to view there Stats on there activated or concluded trainingplans
 
 ## Flow of Events
 ### Basic Flow
-![UC-View-Stats-Window](./Bilder/ViewStats.jpg)
-![UC-View-Stats-of-Trainingplan-X-Window](./Bilder/ViewTPStats.jpg)
+![UC-View-Stats-Window](./Pictures/ViewStats.jpg)
+![UC-View-Stats-of-Trainingplan-X-Window](./Pictures/ViewTPStats.jpg)
 ``` Gherkin
 Feature: see Stats
    I want to see stats of of one TP-Session
