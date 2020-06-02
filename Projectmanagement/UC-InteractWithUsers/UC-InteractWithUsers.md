@@ -7,6 +7,7 @@ As a user of the application you want to view trainingplans by other users, to c
 
 ## Flow of Events
 ### Basic Flow
+![UC-InteractWithUsers-Flow](./Pictures/InteractWithUsersFlow.jpg)
 ![UC-InteractWithUsers-Overview](./Pictures/Public_Trainingplans_Overview.jpg)
 ![UC-InteractWithUsers-ViewTrainingplan](./Pictures/View-Trainingplan.jpg)
 
