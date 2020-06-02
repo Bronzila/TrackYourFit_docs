@@ -34,6 +34,14 @@ To be able to know which user is submitting data, the user is required to be log
 
 ## Postconditions
 
+### Successfully copied the trainingplan
+
+The user should have a trainingplan equal to the one displayed on the overview
+
+### Vote counter
+
+If the user has voted/unvoted a trainingplan, it should be visibile in the overview
+
 ## Extension Points
 
 (tbd)
