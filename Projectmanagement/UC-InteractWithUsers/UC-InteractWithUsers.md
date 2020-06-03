@@ -50,3 +50,6 @@ If the user has voted/unvoted a trainingplan, it should be visibile in the overv
 ## Name of Extension Point
 
 (tdb)
+
+## Function Points
+33
