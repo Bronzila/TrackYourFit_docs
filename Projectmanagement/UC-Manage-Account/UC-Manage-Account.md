@@ -7,8 +7,7 @@ Admins are able to find Useraccounts, get information about the accounts history
 
 ## Flow of Events
 ### Basic Flow
-![UC-User_Management-Diagram](./Bilder/User_Management_UC-Diagramm.jpg)
-![UC-User_Management-ReportHistory-Diagram](./Bilder/Report_History.jpg)
+![UC-Manage_Account-Diagram](./Bilder/Manage_Account.jpg)
 ``` Gherkin
 Feature: change Information of own account 
    as a User
