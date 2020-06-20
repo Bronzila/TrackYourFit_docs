@@ -7,21 +7,18 @@ Admins are able to find Useraccounts, get information about the accounts history
 
 ## Flow of Events
 ### Basic Flow
-![UC-User_Management-Diagram](./Bilder/User_Management_UC-Diagramm.jpg)
-![UC-User_Management-ReportHistory-Diagram](./Bilder/Report_History.jpg)
+![UC-Manage_Account-Diagram](./Bilder/Manage_Account.jpg)
 ``` Gherkin
-Feature: Change Settings 
+Feature: change Information of own account 
    as a User
-   I want to delete an Account
+   I want to change my Email
 
-   Scenario: delete an Account
-      Given I am logged in as an admin
-      And I have navigated to section "User Management"
-      When I searched vor the Account by using the Account-Name as an identifier
-      And I click on the displayed Account in the "Userlist"
-      Then The clicked Account is highlited
-      When I click on the delete Button  
-      Then The Account is deleted from the database
+   Scenario: change Email
+      Given I am logged in
+      And I have navigated to section "Manage account"
+      Then the email-inputfield is editable
+      When I click on the submitt Button  
+      Then my Account has a new Email
 ```
 
 
@@ -36,9 +33,9 @@ Feature: Change Settings
 (tbd)
 
 ## Special Requirements
-### Owning an Admin Account
+### Owning an Account
 
-The user needs an Admin account to open the User Management dialog
+The user needs an account to open the manage account dialog
 
 ## Preconditions
 (tbd)
@@ -47,7 +44,6 @@ The user needs an Admin account to open the User Management dialog
 (tbd)
 
 ## Extension Points
-
 (tbd)
 
 ## Name of Extension Point
