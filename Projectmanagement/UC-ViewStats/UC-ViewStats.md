@@ -6,6 +6,7 @@
 Users are able to view there Stats on there activated or concluded trainingplans
 
 ## Flow of Events
+![Flow-of-events](./Pictures/FlowOfEvents.jpg)
 ### Basic Flow
 ![UC-View-Stats-Window](./Pictures/ViewStats.jpg)
 ![UC-View-Stats-of-Trainingplan-X-Window](./Pictures/ViewTPStats.jpg)
@@ -28,14 +29,7 @@ Feature: see Stats
 
 
 ## Alternative Flows
-###  First Alternative Flow
-(tbd)
-
-#### An Alternative Subflow
-(tbd)
-
-### Second Alternative Flow
-(tbd)
+None
 
 ## Special Requirements
 ### Owning an account
