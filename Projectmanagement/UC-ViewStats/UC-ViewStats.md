@@ -6,6 +6,7 @@
 Users are able to view there Stats on there activated or concluded trainingplans
 
 ## Flow of Events
+![Flow-of-events](./Pictures/FlowOfEvents.jpg)
 ### Basic Flow
 ![UC-View-Stats-Window](./Pictures/ViewStats.jpg)
 ![UC-View-Stats-of-Trainingplan-X-Window](./Pictures/ViewTPStats.jpg)
@@ -28,28 +29,23 @@ Feature: see Stats
 
 
 ## Alternative Flows
-###  First Alternative Flow
-(tbd)
-
-#### An Alternative Subflow
-(tbd)
-
-### Second Alternative Flow
-(tbd)
+None
 
 ## Special Requirements
+### Owning an account
+In order to look at your stats you need to have an account.
 ### None
 
 ## Preconditions
-(tbd)
+### The user has to be logged in
+If the user isn't logged in he can't look at his trainings.
+### The user has to have trained before
+If the user hasn't trained before there wont be a proper statistic to look at.
 
 ## Postconditions
-(tbd)
 
 ## Extension Points
 
-(tbd)
 
 ## Name of Extension Point
 
-(tdb)
