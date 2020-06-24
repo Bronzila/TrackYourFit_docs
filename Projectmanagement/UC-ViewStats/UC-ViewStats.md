@@ -38,18 +38,20 @@ Feature: see Stats
 (tbd)
 
 ## Special Requirements
+### Owning an account
+In order to look at your stats you need to have an account.
 ### None
 
 ## Preconditions
-(tbd)
+### The user has to be logged in
+If the user isn't logged in he can't look at his trainings.
+### The user has to have trained before
+If the user hasn't trained before there wont be a proper statistic to look at.
 
 ## Postconditions
-(tbd)
 
 ## Extension Points
 
-(tbd)
 
 ## Name of Extension Point
 
-(tdb)
