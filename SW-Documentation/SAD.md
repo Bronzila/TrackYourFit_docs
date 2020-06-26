@@ -17,13 +17,11 @@ The scope of this SAD is to show the architecture of the TrackYourFit project. A
 
 ## 2. Architectural Representation
 TrackYourFit uses the MVC-Pattern for its architecture design.
-Sadly, ASP.NET Core doesn't provide a good looking overview, so we stuck with a self created.
-As shown here (don't mind the german):
+Sadly, ASP.NET Core doesn't provide a good looking overview, so we stuck with a self created. As shown here (don't mind the german):
 ![MVC-Pattern](./MVC-Pattern.png)
 
 ## 3. Architectural Goals and Constraints 
-We decided to use ASP.NET Core for the webapplication and Xamarin for the mobile app.
-Both components are coupled by the Rest-API. 
+We decided to use ASP.NET Core for the webapplication.
 
 ## 4. Use-Case View 
 ![Use-Case-Diagram](../Projectmanagement/UseCaseDiagram.jpg)
@@ -45,7 +43,7 @@ We decided to use a few controllers, seperated by the purpose they have. Models 
 ## 8. Implementation View
 
 ## 9. Data View
-We're using a MySQL database to store our data. 
+We're using a MSSQL database to store our data. 
 MSSQL provides us with the functionality to create a database diagram so here it is:
 ![Database-Diagram](./ClassDiagrams%26DB/DB_Diagram.PNG)
 ## 10. Size and Performance
