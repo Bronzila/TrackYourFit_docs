@@ -35,6 +35,8 @@ And our Models, which mostly represent our database as you can see in chapter 9:
 ![Models](./ClassDiagrams%26DB/CodeMap_Models.PNG)
 ### 5.2 Architecturally Significant Design Packages
 We decided to use a few controllers, seperated by the purpose they have. Models are mostly used for accessing data, that's stored in the database or for communication reasons.
+We also modualrized AJAX-Calls as one design pattern and added Dependency Injection to our controllers for the backend:
+![DependencyInjection](./ClassDiagrams%26DB/DependencyInjection.PNG)
 ## 6. Process View
 
 ## 7. Deployment View
