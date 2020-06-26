@@ -17,7 +17,7 @@ The scope of this SAD is to show the architecture of the TrackYourFit project. A
 
 ## 2. Architectural Representation
 TrackYourFit uses the MVC-Pattern for its architecture design.
-Sadly, ASP.NET Core doesn't provide a good looking overview, so we stuck with a self created. As shown here (don't mind the german):
+Sadly, ASP.NET Core doesn't provide a good looking overview, so we stuck with a self created. As shown here (don't mind the german):  
 ![MVC-Pattern](./MVC-Pattern.png)
 
 ## 3. Architectural Goals and Constraints 
