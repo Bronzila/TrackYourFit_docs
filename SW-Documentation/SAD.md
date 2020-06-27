@@ -36,7 +36,7 @@ And our Models, which mostly represent our database as you can see in chapter 9:
 ### 5.2 Architecturally Significant Design Packages
 We decided to use a few controllers, seperated by the purpose they have. Models are mostly used for accessing data, that's stored in the database or for communication reasons.
 We also modualrized AJAX-Calls as one design pattern and added Dependency Injection to our controllers for the backend:\
-![DependencyInjection](./ClassDiagrams%26DB/dependencyinjection.png)
+![DependencyInjection](./ClassDiagrams%26DB/dependencyinjection.png)\
 As a short description: When using dependency injection, clients (= the class using an object) wont create the objects they need on their own, the objects (= services) will be injected by an (guess what) injector. One advantage is of this method is, that the client is much more flexible and configurable. Only the behaviour of the client is fixed, but it can act on anything that supports the interface it expects. Another upside is, that unit testing these clients is much easier, since you can mock the services, that are going to get injected into the client.
 ## 6. Process View
 
