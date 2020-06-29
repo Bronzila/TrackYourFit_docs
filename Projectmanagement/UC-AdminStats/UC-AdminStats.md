@@ -15,7 +15,7 @@ This Use-Case is pointing out, how the admin can get some overall informations a
 
 A System Admin needs information about the use of the software. If a specific uc is not used enough the developer can check why it happens and start changing these issues. In the Admin Menu there is a button to visit the StatView. On that view there are amounts of all users and amount of trainingplans created by users. A Chart is displaying the tracked trainings per day since one year ago.
 
-
+![AD_AdminStats](/Pictures/Mockups/UC-AdminStats.jpg)
 ## 3. Special Requirements
 
 ### 3.1 Owning An Account
