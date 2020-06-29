@@ -44,31 +44,15 @@ Feature: delete Account
 ```
 
 
-## Alternative Flows
-###  First Alternative Flow
-(tbd)
-
-#### An Alternative Subflow
-(tbd)
-
-### Second Alternative Flow
-(tbd)
-
 ## Special Requirements
 ### Owning an Admin Account
 
 The user needs an Admin account to open the User Management dialog
 
 ## Preconditions
-(tbd)
+the Admin needs to be logged in
 
 ## Postconditions
-(tbd)
-
-## Extension Points
-
-(tbd)
-
-## Name of Extension Point
-
-(tdb)
+The admin has information about the users Usernames, emails and groups
+and ether users groups are edited
+and/or a user is or multible users are deleted
