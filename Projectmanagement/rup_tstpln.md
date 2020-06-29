@@ -65,7 +65,7 @@ Database integrity testing. <br/>
 **n/a**
 ### 5.2	Testing Techniques and Types
 #### 5.2.1 Data and Database Integrity Testing
-!!!!!!!!!!!!!!!!!!Tobi Fragen!!!!!!!!!!!!!!!!!!!!!!!!
+**n/a**
 
 #### 5.2.2 Function Testing
 || |
@@ -84,19 +84,21 @@ Database integrity testing. <br/>
 || |
 |---|---|
 | Testuser surveys | By letting testusers interract with the Interface and then letting them fill out a survey, we collect data that can be used to identify Bugs, Style breaks and unpraktical Design patterns |
-| comparing | By comparing our code with other established and well crafted Bootsrtap sites in order to find codesmells |
+| comparing | By comparing our code with other established and well crafted Bootstrap sites in order to find codesmells |
 
-#### 5.2.5 Performance Profiling 
+In the following picture you can see a snippet of the online survey
+![online survey](./OnlineSurvey.JPG)
+#### 5.2.5 Performance Profiling
 **n/a**
 
 #### 5.2.6 Load Testing
-**n/a**
+Not relavent because the application is running on a hosted Server
 
 #### 5.2.7 Stress Testing
-**n/a**
+Not relavent because the application is running on a hosted Server
 
 #### 5.2.8	Volume Testing
-**n/a**
+Not relavent because the application is running on a hosted Server
 
 #### 5.2.9	Security and Access Control Testing
 **n/a**
@@ -107,8 +109,11 @@ Database integrity testing. <br/>
 #### 5.2.11	Configuration Testing
 **n/a**
 
+
 #### 5.2.12	Installation Testing
-**n/a**
+|| |
+|---|---|
+| foreing installation | installation, by a person that is not involved, on devices not held by a Project develloper |
 
 #### 5.2.13	Usability Testing
 || |
@@ -131,18 +136,19 @@ Database integrity testing. <br/>
 
 ## 7.	Deliverables
 ### 7.1	Test Evaluation Summaries
-The code coverage is shown via badges inside of the GitHub repository of the respective branch.
+Is shown inside of the IDE.
 ### 7.2	Reporting on Test Coverage
 Backend Coverage is reported by xUnit. Frontend Coverage is reported by test users.
 ### 7.3	Perceived Quality Reports
-tbd
+Is visable with online surveys
+
 ### 7.4	Incident Logs and Change Requests
-A lot of the above features are already integrated into the GitHub environment.
+A lot of the above features are already integrated into the GitHub environment and or the IDE VisualStudio.
 ### 7.5	Smoke Test Suite and Supporting Test Scripts
 ### 7.6	Additional Work Products
 #### 7.6.1	Detailed Test Results
-tbd
-
+In the following picture you can see the results of all of our Unit-tests within the IDE.
+![IDE-UnitTest](./TestWindow.JPG)
 #### 7.6.2	Additional Automated Functional Test Scripts
 **n/a**
 #### 7.6.3	Test Guidelines
@@ -210,13 +216,14 @@ Human Resources
 
 | Milestone | Planned Start Date | Actual Start Date | Planned End Date | Actual End Date |
 |---|---|---|---|---|
-| Have Unit Tests | 06.05.2020 | 06.05.2020 | 24.6.2020 | **tbd**   |
-| 50% coverage | 20.05.2020 | **tbd**   | 24.6.2020   | **tbd**   |
-| Tests integrated in CI | 06.05.2020 | 06.05.2020 | 30.05.2020 | **tbd** |
+| Have Unit Tests | 06.05.2020 | 06.05.2020 | 24.06.2020 | 10.05.2020 |
+| 50% coverage | 20.05.2020 | 20.05.2020   | 24.06.2020 | 10.06.2020 |
+| Tests integrated in CI | 06.05.2020 | 06.05.2020 | 30.05.2020 | 03.06.2020 |
+| Survey online | 12.06.2020 | 12.06.2020 | 25.06.2020 | 30.06.2020|
 
 
 ## 12.	Risks, Dependencies, Assumptions, and Constraints
-| Risk | Mitigation Strategy	| Contingency (Risk is realized) |
+| Risk | Mitigation Strategy | Contingency (Risk is realized) |
 |---|---|---|
 | Unkown bugs in production | Cover all vital cenarios with tests. | Identify the bug source and fix it, if not possible roll back version.
 ## 13. Management Process and Procedures
