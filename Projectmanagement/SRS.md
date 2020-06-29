@@ -48,11 +48,11 @@
 ## Introduction
 ### Purpose
 
-This SRS describes all specifications for "TrackYourFit". It's a Web-based application and a cross-platform application. "TrackYourFit" allows users to share their training plans with friends and other people in their near environment. In this document the usage of the "TrackYourFit"-Web-App. Furthermore reliability, reaction speed and other important characteristics of this project will be specified. This includes design and architectural decisions regarding optimization of these criteria as well.
+This SRS describes all specifications for "TrackYourFit". It's a Web-based application. "TrackYourFit" allows users to share their training plans with friends and other users online. In this document the usage of the "TrackYourFit"-Website. Furthermore reliability, reaction speed and other important characteristics of this project will be specified. This includes design and architectural decisions regarding optimization of these criteria as well.
 
 ### Scope
 
-This software specification applies to the whole "TrackYourFit" application. The app allows users to share training plans, get feedback from other users and have a look into the complete training process.  It is a crowd source training platform.
+This software specification applies to the whole "TrackYourFit" application. The website allows users to share training plans, get feedback from other users and have a look into youre complete training process. It is a crowd source training platform with intresting up to date news and intresting traingdata to look at.
 
 ### Definitions, Acronyms, and Abbreviations
 
@@ -60,8 +60,6 @@ In this section definitions and explanations of acronyms and abbreviations are l
 
 | Abbreviation | Explanation |
 | --- | --- |
-| Android | Is a mobile operating system developed by Google. |
-| iOS | Is a mobile operating system developed by Apple. |
 | UC | Use Case |
 | Web-App | Is a Application hosted on a Webserver |
 | DB | Database which stores the data |
@@ -72,9 +70,9 @@ In this section definitions and explanations of acronyms and abbreviations are l
 | --- | --- |
 | Link to the [Blog](https://trackyourfit.wordpress.com/) |   |
 | Link to [Github](https://github.com/tobi4321/TrackYourFit) |   |
-| Link to [UCD](https://github.com/tobi4321/TrackYourFit/blob/master/Projectmanagement/UseCaseDiagram.jpg) |   |
-| Link to [Use Case Crud TrainingPlan](https://github.com/tobi4321/TrackYourFit/tree/master/Projectmanagement/UC-CRUD-TrainingPlan) |   |
-| Link to [Use Case TrackHealth](https://github.com/tobi4321/TrackYourFit/tree/master/Projectmanagement/UC-TrackHealth) |   |
+| Link to [UCD](https://github.com/Bronzila/TrackYourFit_docs/blob/master/Projectmanagement/UseCaseDiagram.jpg) |   |
+| Link to [Use Case Crud TrainingPlan](https://github.com/Bronzila/TrackYourFit_docs/blob/master/Projectmanagement/UC-CRUD-TrainingPlan/UC-CRUD-Trainingplan.md) |   |
+| Link to [Use Case TrackHealth](https://github.com/Bronzila/TrackYourFit_docs/blob/master/Projectmanagement/UC-TrackWeight/UC-TrackWeight.md) |   |
 
 ### Overview
 
@@ -87,10 +85,9 @@ Our project is supposed to help sport enthusiasts and those who want to get spor
 So you will be able to:
 
 - create, execute and track training plans
-- compare your plans with other Trackers
+- get plans from other Trackers
 - rate other training plans and give feedback to improve them
-
-
+- track your weight to see your Improvments
 
 The following diagram shows the use cases declared for this project.
 
@@ -105,7 +102,7 @@ Admin should be able to delete, edit and create news, that the normal user then 
 
 - Manage all users
 
-Admin should be able to delete inappropriate users.
+Admin should be able to delete inappropriate users and give/take usergroups like admin and trainer
 
 - Create account
 
@@ -123,20 +120,16 @@ User should be able to add and delete friends.
 User should be able to create, delete and edit their training plans.
 - View stats
 User can view their own training progress.
-- Track health
+- Track weight
 User can track his progress and other health-related data (e.g. weight).
 - Interact with users
 User can rate other training plans and notify friends when working out.
 
 
-#### Cross-Platform-Mobile-Application
-
-(tbd)
-
 ### Usability
 #### Smartphone and PC user
 
-User should know how to use a smartphone or computer to access the app.
+User should know how to use a smartphone or computer to access the Website.
 
 ### Reliability
 #### Server reliability
@@ -156,6 +149,7 @@ We will use the following languages, which will also be well supported in the fu
 
 - C#
 - SQL
+- java-script
 
 ### Design Constraints
 #### MVC Architecture
@@ -164,11 +158,11 @@ The Webapplication interacts through a REST-Interface with the back-end to trans
 
 ### On-line User Documentation and Help System Requirements
 
-The whole application will be built with an intuitive design, but we also develop a tutorial for the application.
+The whole application will be built with an intuitive design.
 
 ### Purchased Components
 
-(tbd)
+Ionos webservice Hosting
 
 ### Interfaces
 #### User Interfaces
@@ -177,31 +171,17 @@ Users can register and log in. Edit their profiles and manage their training pla
 
 #### Hardware Interfaces
 
-The web application is provided for Linux and Windows Server. It can be managed on Docker. It supports all popular browsers.
+The web application is provided for Linux and Windows Server. It could be managed on Docker but it is published via ftp. It supports all popular browsers.
 
 #### Software Interfaces
 
 The database is included into the Webserver. The SQL database can be managed with SQL Server Management Studio.
 
-(tbd)
-
 #### Communications Interfaces
 
-An internet connection is required for the web and the mobile apps.
-
-### Licensing Requirements
-
-(tbd)
+An internet connection is required for the web-apps.
 
 ### Legal, Copyright, and Other Notices
 
 We do not ensure that there is successful training process. We also do not ensure that any of the training plans are correct. Using any of the training plans is at your own risk. We are not responsible for any injuries caused by training with the training plans on our platform.
-(tbd)
 
-### Applicable Standards
-
-(tbd)
-
-## Supporting Information
-
-(tbd)
