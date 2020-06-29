@@ -157,4 +157,3 @@ After confirming the deletion modal, the training plan will be permanently remov
 
 ## 6. Extentsion Points
 
-tbd
