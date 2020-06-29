@@ -54,7 +54,7 @@ Items for Testing:
 ## 4.	Outline of Planned Tests
 ### 4.1	Outline of Test Inclusions
 Unit Testing for the backend. <br/>
-Usability Testing for the Frontend. <br/>
+Usability and Design Testing for the Frontend. <br/>
 ### 4.2	Outline of Other Candidates for Potential Inclusion
 Stress Testing the application and its servers. <br/>
 Database integrity testing. <br/>
@@ -65,7 +65,7 @@ Database integrity testing. <br/>
 **n/a**
 ### 5.2	Testing Techniques and Types
 #### 5.2.1 Data and Database Integrity Testing
-TBD
+!!!!!!!!!!!!!!!!!!Tobi Fragen!!!!!!!!!!!!!!!!!!!!!!!!
 
 #### 5.2.2 Function Testing
 || |
@@ -81,7 +81,10 @@ TBD
 **n/a**
 
 #### 5.2.4 User Interface Testing
-**n/a**
+|| |
+|---|---|
+| Testuser surveys | By letting testusers interract with the Interface and then letting them fill out a survey, we collect data that can be used to identify Bugs, Style breaks and unpraktical Design patterns |
+| comparing | By comparing our code with other established and well crafted Bootsrtap sites in order to find codesmells |
 
 #### 5.2.5 Performance Profiling 
 **n/a**

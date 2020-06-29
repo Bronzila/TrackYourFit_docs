@@ -21,31 +21,20 @@ Feature: change Information of own account
       Then my Account has a new Email
 ```
 
-
-## Alternative Flows
-###  First Alternative Flow
-(tbd)
-
-#### An Alternative Subflow
-(tbd)
-
-### Second Alternative Flow
-(tbd)
-
 ## Special Requirements
 ### Owning an Account
 
 The user needs an account to open the manage account dialog
 
 ## Preconditions
-(tbd)
+beeing logged in
 
 ## Postconditions
-(tbd)
 
-## Extension Points
-(tbd)
+the user has seen his or her Personal Information
+ether nothing changed
+or the users username is changed
+and/or the users email is changed
+and/or the users password is changed
+and/or the users birthdate is changed
 
-## Name of Extension Point
-
-(tdb)

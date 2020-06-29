@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2020-06-24T07:23:37.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="5lIx4_xB1E0H4tmYNGM7" version="13.3.1" type="github">
+  <diagram id="pJZKp0zEUnxZiN3DvmuZ" name="Page-1">
+    <mxGraphModel dx="1550" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="399" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="PxkrtV6aKEUyxPNBgeFO-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-3" value="Overview" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PxkrtV6aKEUyxPNBgeFO-4" target="PxkrtV6aKEUyxPNBgeFO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="230" />
+              <mxPoint x="414" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-4" value="Detailed &lt;br&gt;Training stats" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-9" value="Click &quot;Back&quot; button" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="465" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PxkrtV6aKEUyxPNBgeFO-10" source="PxkrtV6aKEUyxPNBgeFO-3" target="PxkrtV6aKEUyxPNBgeFO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PxkrtV6aKEUyxPNBgeFO-6" value="Take a closer look" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PxkrtV6aKEUyxPNBgeFO-10">
+          <mxGeometry width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
