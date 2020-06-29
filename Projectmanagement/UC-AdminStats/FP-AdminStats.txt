@@ -1,0 +1,16 @@
+Inputs:
+- 0
+Outputs
+- 6
+Inquiries:
+- 0
+
+FTR:
+- 1
+RET:
+- 3 --> ASPNetUsers + Trainings + Trainingplans
+DETs:
+- 4 --> ASPNetUserId + TrainingId + TrainingDate + TrainingplanId
+
+-----
+20.0 FP
