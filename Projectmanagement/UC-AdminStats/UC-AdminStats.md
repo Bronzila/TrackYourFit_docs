@@ -34,8 +34,7 @@ To ensure proper privacy of news items the admin and have to be logged in when v
 
 After looking for the stats the admin can go back to the admin menu with a single click on the back button.
 
+## 6. Function Points
 
+The calculated FPs for this UC are 20.0
 
-## 6. Extentsion Points
-
-tbd
