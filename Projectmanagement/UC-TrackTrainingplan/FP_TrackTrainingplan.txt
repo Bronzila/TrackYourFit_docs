@@ -1,0 +1,17 @@
+Inputs:
+- 3
+Outputs
+- 2
+Inquiries:
+- 4
+
+
+FTR:
+- 1
+RET:
+- 4
+DETs:
+- 9
+
+-----
+23 FP
