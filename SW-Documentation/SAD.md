@@ -10,7 +10,18 @@ It is intended to capture and convey the significant architectural decisions whi
 ### 1.2 Scope
 The scope of this SAD is to show the architecture of the TrackYourFit project. Affected are the class structure and the data representation.
 
-### 1.3 References
+### 1.3 Tech Stack
+Backend:
+- ASP.NET Core
+- Entity Framework Core
+- MSSQL DB
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+### 1.4 References
 - [GitHub](https://github.com/tobi4321/TrackYourFit)
 - [Blog](https://trackyourfit.wordpress.com/)
 - [Software Requirements Specification](https://github.com/tobi4321/TrackYourFit/blob/master/Projectmanagement/SRS.md)
