@@ -15,6 +15,7 @@ Backend:
 - ASP.NET Core
 - Entity Framework Core
 - MSSQL DB
+
 Frontend:
 - HTML
 - CSS
