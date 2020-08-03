@@ -43,4 +43,4 @@ and/or the users birthdate is changed
 22 in total.
 
 calculated as follows:
-![FP-Calc](./FP.jpg)
+![FP-Calc](./FP.JPG)
