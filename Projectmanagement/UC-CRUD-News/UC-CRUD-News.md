@@ -73,4 +73,6 @@ After the admin saved his edits, the updated data will be displayed in the news 
 
 After confirming the deletion modal, the news item will be permanently removed and no longer displayed in the list overview.
 
+### 6. Function points
 
+Total: 16.25

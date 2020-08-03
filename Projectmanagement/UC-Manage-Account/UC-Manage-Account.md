@@ -38,3 +38,9 @@ and/or the users email is changed
 and/or the users password is changed
 and/or the users birthdate is changed
 
+## Function Points
+
+22 in total.
+
+calculated as follows:
+![FP-Calc](./FP.jpg)

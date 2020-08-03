@@ -56,3 +56,6 @@ the Admin needs to be logged in
 The admin has information about the users Usernames, emails and groups
 and ether users groups are edited
 and/or a user is or multible users are deleted
+
+## Function Points
+21

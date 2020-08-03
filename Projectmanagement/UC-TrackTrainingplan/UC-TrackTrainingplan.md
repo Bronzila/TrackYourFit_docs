@@ -92,3 +92,22 @@ After the data is submitted the user will be automatically redirected to the vie
 ## Name of Extension Point
 
 (tdb)
+
+## Funciton Points
+Inputs:
+- 3
+Outputs
+- 2
+Inquiries:
+- 4
+
+
+FTR:
+- 1
+RET:
+- 4
+DETs:
+- 9
+
+-----
+23 FP in total

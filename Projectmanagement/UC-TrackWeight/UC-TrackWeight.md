@@ -68,3 +68,6 @@ After the data is submitted the user will be automatically redirected to the vie
 ## Name of Extension Point
 
 (tdb)
+
+## Function Points
+11

@@ -38,3 +38,21 @@ After looking for the stats the admin can go back to the admin menu with a singl
 
 The calculated FPs for this UC are 20.0
 
+calculated as follows:
+
+Inputs:
+- 0
+Outputs
+- 6
+Inquiries:
+- 0
+
+FTR:
+- 1
+RET:
+- 3 --> ASPNetUsers + Trainings + Trainingplans
+DETs:
+- 4 --> ASPNetUserId + TrainingId + TrainingDate + TrainingplanId
+
+-----
+20.0 FP

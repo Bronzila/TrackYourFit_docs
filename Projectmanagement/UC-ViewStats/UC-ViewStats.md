@@ -49,3 +49,19 @@ If the user hasn't trained before there wont be a proper statistic to look at.
 
 ## Name of Extension Point
 
+## Function Points
+
+User Inputs: 1
+User Outputs: 9
+User Inquiries: 3
+
+DETs: 18
+RETs: 4
+FTR: 1
+
+ILF: 1
+EIF: 0
+
+----
+
+36.4 FP total

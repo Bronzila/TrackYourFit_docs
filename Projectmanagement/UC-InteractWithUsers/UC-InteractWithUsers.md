@@ -52,4 +52,22 @@ If the user has voted/unvoted a trainingplan, it should be visibile in the overv
 (tdb)
 
 ## Function Points
+
 33
+
+calculated as follows:
+
+Inputs:
+- 8
+Outputs
+- 2
+Inquiries:
+- 1
+
+FTR:
+- 2 --> Trainingplan und Votes
+DETs:
+- 17 --> Trainingplan + drunter, Votes, Username bei users
+
+-----
+32.5 FP

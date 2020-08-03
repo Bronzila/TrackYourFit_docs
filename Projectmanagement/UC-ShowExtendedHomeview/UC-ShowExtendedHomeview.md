@@ -82,3 +82,22 @@ Feature: Continue to Overview
 ## Name of Extension Point
 
 (tdb)
+## Function Points
+
+Inputs:
+- 2
+Outputs
+- 6
+Inquiries:
+- 1
+
+
+FTR:
+- 2
+RET:
+- 4
+DETs:
+- 9
+
+-----
+32 FP in total
